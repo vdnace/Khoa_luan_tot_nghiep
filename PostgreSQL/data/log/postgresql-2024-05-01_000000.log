@@ -1,0 +1,292 @@
+2024-05-02 14:22:26.068 +07 [3688] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 14:22:26.069 +07 [25016] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 14:22:26.080 +07 [14620] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 14:22:26.081 +07 [25192] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 14:22:26.081 +07 [17304] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 14:22:26.084 +07 [17116] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 14:22:26.089 +07 [12780] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 14:22:26.087 +07 [29648] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 14:22:26.097 +07 [21584] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:23:47.401 +07 [29592] ERROR:  column product_template.tieuchuan does not exist at character 1549
+2024-05-02 16:23:47.401 +07 [29592] STATEMENT:  SELECT "product_template"."id", "product_template"."name"->>'en_US', "product_template"."sequence", "product_template"."description"->>'en_US', "product_template"."description_purchase"->>'en_US', "product_template"."description_sale"->>'en_US', "product_template"."detailed_type", "product_template"."type", "product_template"."categ_id", "product_template"."list_price", "product_template"."volume", "product_template"."weight", "product_template"."sale_ok", "product_template"."purchase_ok", "product_template"."uom_id", "product_template"."uom_po_id", "product_template"."company_id", "product_template"."active", "product_template"."color", "product_template"."default_code", "product_template"."can_image_1024_be_zoomed", "product_template"."has_configurable_attributes", "product_template"."priority", "product_template"."create_uid", "product_template"."create_date", "product_template"."write_uid", "product_template"."write_date", "product_template"."sale_delay", "product_template"."tracking", "product_template"."description_picking"->>'en_US', "product_template"."description_pickingout"->>'en_US', "product_template"."description_pickingin"->>'en_US', "product_template"."purchase_method", "product_template"."purchase_line_warn", "product_template"."purchase_line_warn_msg", "product_template"."available_in_pos", "product_template"."to_weight", "product_template"."service_type", "product_template"."sale_line_warn", "product_template"."sale_line_warn_msg", "product_template"."expense_policy", "product_template"."invoice_policy", "product_template"."tieuchuan", "product_template"."ncc", "product_template"."hs_code", "product_template"."country_of_origin", "product_template"."service_tracking" FROM "product_template" WHERE ("product_template"."id" IN (14, 6, 20, 5))
+2024-05-02 16:23:47.412 +07 [24520] ERROR:  column product_template.tieuchuan does not exist at character 1549
+2024-05-02 16:23:47.412 +07 [24520] STATEMENT:  SELECT "product_template"."id", "product_template"."name"->>'en_US', "product_template"."sequence", "product_template"."description"->>'en_US', "product_template"."description_purchase"->>'en_US', "product_template"."description_sale"->>'en_US', "product_template"."detailed_type", "product_template"."type", "product_template"."categ_id", "product_template"."list_price", "product_template"."volume", "product_template"."weight", "product_template"."sale_ok", "product_template"."purchase_ok", "product_template"."uom_id", "product_template"."uom_po_id", "product_template"."company_id", "product_template"."active", "product_template"."color", "product_template"."default_code", "product_template"."can_image_1024_be_zoomed", "product_template"."has_configurable_attributes", "product_template"."priority", "product_template"."create_uid", "product_template"."create_date", "product_template"."write_uid", "product_template"."write_date", "product_template"."sale_delay", "product_template"."tracking", "product_template"."description_picking"->>'en_US', "product_template"."description_pickingout"->>'en_US', "product_template"."description_pickingin"->>'en_US', "product_template"."purchase_method", "product_template"."purchase_line_warn", "product_template"."purchase_line_warn_msg", "product_template"."available_in_pos", "product_template"."to_weight", "product_template"."service_type", "product_template"."sale_line_warn", "product_template"."sale_line_warn_msg", "product_template"."expense_policy", "product_template"."invoice_policy", "product_template"."tieuchuan", "product_template"."ncc", "product_template"."hs_code", "product_template"."country_of_origin", "product_template"."service_tracking" FROM "product_template" WHERE ("product_template"."id" IN (9, 10, 51, 23, 17, 13, 19, 20, 6, 5, 27, 21, 22, 4))
+2024-05-02 16:23:47.540 +07 [24520] ERROR:  column product_template.tieuchuan does not exist at character 1549
+2024-05-02 16:23:47.540 +07 [24520] STATEMENT:  SELECT "product_template"."id", "product_template"."name"->>'en_US', "product_template"."sequence", "product_template"."description"->>'en_US', "product_template"."description_purchase"->>'en_US', "product_template"."description_sale"->>'en_US', "product_template"."detailed_type", "product_template"."type", "product_template"."categ_id", "product_template"."list_price", "product_template"."volume", "product_template"."weight", "product_template"."sale_ok", "product_template"."purchase_ok", "product_template"."uom_id", "product_template"."uom_po_id", "product_template"."company_id", "product_template"."active", "product_template"."color", "product_template"."default_code", "product_template"."can_image_1024_be_zoomed", "product_template"."has_configurable_attributes", "product_template"."priority", "product_template"."create_uid", "product_template"."create_date", "product_template"."write_uid", "product_template"."write_date", "product_template"."sale_delay", "product_template"."tracking", "product_template"."description_picking"->>'en_US', "product_template"."description_pickingout"->>'en_US', "product_template"."description_pickingin"->>'en_US', "product_template"."purchase_method", "product_template"."purchase_line_warn", "product_template"."purchase_line_warn_msg", "product_template"."available_in_pos", "product_template"."to_weight", "product_template"."service_type", "product_template"."sale_line_warn", "product_template"."sale_line_warn_msg", "product_template"."expense_policy", "product_template"."invoice_policy", "product_template"."tieuchuan", "product_template"."ncc", "product_template"."hs_code", "product_template"."country_of_origin", "product_template"."service_tracking" FROM "product_template" WHERE ("product_template"."id" IN (9, 10, 51, 23, 17, 13, 19, 20, 6, 5, 27, 21, 22, 4))
+2024-05-02 16:23:47.564 +07 [24520] ERROR:  column product_template.tieuchuan does not exist at character 1549
+2024-05-02 16:23:47.564 +07 [24520] STATEMENT:  SELECT "product_template"."id", "product_template"."name"->>'en_US', "product_template"."sequence", "product_template"."description"->>'en_US', "product_template"."description_purchase"->>'en_US', "product_template"."description_sale"->>'en_US', "product_template"."detailed_type", "product_template"."type", "product_template"."categ_id", "product_template"."list_price", "product_template"."volume", "product_template"."weight", "product_template"."sale_ok", "product_template"."purchase_ok", "product_template"."uom_id", "product_template"."uom_po_id", "product_template"."company_id", "product_template"."active", "product_template"."color", "product_template"."default_code", "product_template"."can_image_1024_be_zoomed", "product_template"."has_configurable_attributes", "product_template"."priority", "product_template"."create_uid", "product_template"."create_date", "product_template"."write_uid", "product_template"."write_date", "product_template"."sale_delay", "product_template"."tracking", "product_template"."description_picking"->>'en_US', "product_template"."description_pickingout"->>'en_US', "product_template"."description_pickingin"->>'en_US', "product_template"."purchase_method", "product_template"."purchase_line_warn", "product_template"."purchase_line_warn_msg", "product_template"."available_in_pos", "product_template"."to_weight", "product_template"."service_type", "product_template"."sale_line_warn", "product_template"."sale_line_warn_msg", "product_template"."expense_policy", "product_template"."invoice_policy", "product_template"."tieuchuan", "product_template"."ncc", "product_template"."hs_code", "product_template"."country_of_origin", "product_template"."service_tracking" FROM "product_template" WHERE ("product_template"."id" IN (9, 10, 51, 23, 17, 13, 19, 20, 6, 5, 27, 21, 22, 4))
+2024-05-02 16:23:47.597 +07 [24520] ERROR:  column product_template.tieuchuan does not exist at character 1549
+2024-05-02 16:23:47.597 +07 [24520] STATEMENT:  SELECT "product_template"."id", "product_template"."name"->>'en_US', "product_template"."sequence", "product_template"."description"->>'en_US', "product_template"."description_purchase"->>'en_US', "product_template"."description_sale"->>'en_US', "product_template"."detailed_type", "product_template"."type", "product_template"."categ_id", "product_template"."list_price", "product_template"."volume", "product_template"."weight", "product_template"."sale_ok", "product_template"."purchase_ok", "product_template"."uom_id", "product_template"."uom_po_id", "product_template"."company_id", "product_template"."active", "product_template"."color", "product_template"."default_code", "product_template"."can_image_1024_be_zoomed", "product_template"."has_configurable_attributes", "product_template"."priority", "product_template"."create_uid", "product_template"."create_date", "product_template"."write_uid", "product_template"."write_date", "product_template"."sale_delay", "product_template"."tracking", "product_template"."description_picking"->>'en_US', "product_template"."description_pickingout"->>'en_US', "product_template"."description_pickingin"->>'en_US', "product_template"."purchase_method", "product_template"."purchase_line_warn", "product_template"."purchase_line_warn_msg", "product_template"."available_in_pos", "product_template"."to_weight", "product_template"."service_type", "product_template"."sale_line_warn", "product_template"."sale_line_warn_msg", "product_template"."expense_policy", "product_template"."invoice_policy", "product_template"."tieuchuan", "product_template"."ncc", "product_template"."hs_code", "product_template"."country_of_origin", "product_template"."service_tracking" FROM "product_template" WHERE ("product_template"."id" IN (9, 10, 51, 23, 17, 13, 19, 20, 6, 5, 27, 21, 22, 4))
+2024-05-02 16:23:47.625 +07 [24520] ERROR:  column product_template.tieuchuan does not exist at character 1549
+2024-05-02 16:23:47.625 +07 [24520] STATEMENT:  SELECT "product_template"."id", "product_template"."name"->>'en_US', "product_template"."sequence", "product_template"."description"->>'en_US', "product_template"."description_purchase"->>'en_US', "product_template"."description_sale"->>'en_US', "product_template"."detailed_type", "product_template"."type", "product_template"."categ_id", "product_template"."list_price", "product_template"."volume", "product_template"."weight", "product_template"."sale_ok", "product_template"."purchase_ok", "product_template"."uom_id", "product_template"."uom_po_id", "product_template"."company_id", "product_template"."active", "product_template"."color", "product_template"."default_code", "product_template"."can_image_1024_be_zoomed", "product_template"."has_configurable_attributes", "product_template"."priority", "product_template"."create_uid", "product_template"."create_date", "product_template"."write_uid", "product_template"."write_date", "product_template"."sale_delay", "product_template"."tracking", "product_template"."description_picking"->>'en_US', "product_template"."description_pickingout"->>'en_US', "product_template"."description_pickingin"->>'en_US', "product_template"."purchase_method", "product_template"."purchase_line_warn", "product_template"."purchase_line_warn_msg", "product_template"."available_in_pos", "product_template"."to_weight", "product_template"."service_type", "product_template"."sale_line_warn", "product_template"."sale_line_warn_msg", "product_template"."expense_policy", "product_template"."invoice_policy", "product_template"."tieuchuan", "product_template"."ncc", "product_template"."hs_code", "product_template"."country_of_origin", "product_template"."service_tracking" FROM "product_template" WHERE ("product_template"."id" IN (9, 10, 51, 23, 17, 13, 19, 20, 6, 5, 27, 21, 22, 4))
+2024-05-02 16:23:47.660 +07 [24520] ERROR:  column product_template.tieuchuan does not exist at character 1549
+2024-05-02 16:23:47.660 +07 [24520] STATEMENT:  SELECT "product_template"."id", "product_template"."name"->>'en_US', "product_template"."sequence", "product_template"."description"->>'en_US', "product_template"."description_purchase"->>'en_US', "product_template"."description_sale"->>'en_US', "product_template"."detailed_type", "product_template"."type", "product_template"."categ_id", "product_template"."list_price", "product_template"."volume", "product_template"."weight", "product_template"."sale_ok", "product_template"."purchase_ok", "product_template"."uom_id", "product_template"."uom_po_id", "product_template"."company_id", "product_template"."active", "product_template"."color", "product_template"."default_code", "product_template"."can_image_1024_be_zoomed", "product_template"."has_configurable_attributes", "product_template"."priority", "product_template"."create_uid", "product_template"."create_date", "product_template"."write_uid", "product_template"."write_date", "product_template"."sale_delay", "product_template"."tracking", "product_template"."description_picking"->>'en_US', "product_template"."description_pickingout"->>'en_US', "product_template"."description_pickingin"->>'en_US', "product_template"."purchase_method", "product_template"."purchase_line_warn", "product_template"."purchase_line_warn_msg", "product_template"."available_in_pos", "product_template"."to_weight", "product_template"."service_type", "product_template"."sale_line_warn", "product_template"."sale_line_warn_msg", "product_template"."expense_policy", "product_template"."invoice_policy", "product_template"."tieuchuan", "product_template"."ncc", "product_template"."hs_code", "product_template"."country_of_origin", "product_template"."service_tracking" FROM "product_template" WHERE ("product_template"."id" IN (9, 10, 51, 23, 17, 13, 19, 20, 6, 5, 27, 21, 22, 4))
+2024-05-02 16:23:47.696 +07 [24520] ERROR:  column product_template.tieuchuan does not exist at character 1549
+2024-05-02 16:23:47.696 +07 [24520] STATEMENT:  SELECT "product_template"."id", "product_template"."name"->>'en_US', "product_template"."sequence", "product_template"."description"->>'en_US', "product_template"."description_purchase"->>'en_US', "product_template"."description_sale"->>'en_US', "product_template"."detailed_type", "product_template"."type", "product_template"."categ_id", "product_template"."list_price", "product_template"."volume", "product_template"."weight", "product_template"."sale_ok", "product_template"."purchase_ok", "product_template"."uom_id", "product_template"."uom_po_id", "product_template"."company_id", "product_template"."active", "product_template"."color", "product_template"."default_code", "product_template"."can_image_1024_be_zoomed", "product_template"."has_configurable_attributes", "product_template"."priority", "product_template"."create_uid", "product_template"."create_date", "product_template"."write_uid", "product_template"."write_date", "product_template"."sale_delay", "product_template"."tracking", "product_template"."description_picking"->>'en_US', "product_template"."description_pickingout"->>'en_US', "product_template"."description_pickingin"->>'en_US', "product_template"."purchase_method", "product_template"."purchase_line_warn", "product_template"."purchase_line_warn_msg", "product_template"."available_in_pos", "product_template"."to_weight", "product_template"."service_type", "product_template"."sale_line_warn", "product_template"."sale_line_warn_msg", "product_template"."expense_policy", "product_template"."invoice_policy", "product_template"."tieuchuan", "product_template"."ncc", "product_template"."hs_code", "product_template"."country_of_origin", "product_template"."service_tracking" FROM "product_template" WHERE ("product_template"."id" IN (9, 10, 51, 23, 17, 13, 19, 20, 6, 5, 27, 21, 22, 4))
+2024-05-02 16:23:58.808 +07 [37628] ERROR:  column product_template.tieuchuan does not exist at character 1549
+2024-05-02 16:23:58.808 +07 [37628] STATEMENT:  SELECT "product_template"."id", "product_template"."name"->>'en_US', "product_template"."sequence", "product_template"."description"->>'en_US', "product_template"."description_purchase"->>'en_US', "product_template"."description_sale"->>'en_US', "product_template"."detailed_type", "product_template"."type", "product_template"."categ_id", "product_template"."list_price", "product_template"."volume", "product_template"."weight", "product_template"."sale_ok", "product_template"."purchase_ok", "product_template"."uom_id", "product_template"."uom_po_id", "product_template"."company_id", "product_template"."active", "product_template"."color", "product_template"."default_code", "product_template"."can_image_1024_be_zoomed", "product_template"."has_configurable_attributes", "product_template"."priority", "product_template"."create_uid", "product_template"."create_date", "product_template"."write_uid", "product_template"."write_date", "product_template"."sale_delay", "product_template"."tracking", "product_template"."description_picking"->>'en_US', "product_template"."description_pickingout"->>'en_US', "product_template"."description_pickingin"->>'en_US', "product_template"."purchase_method", "product_template"."purchase_line_warn", "product_template"."purchase_line_warn_msg", "product_template"."available_in_pos", "product_template"."to_weight", "product_template"."service_type", "product_template"."sale_line_warn", "product_template"."sale_line_warn_msg", "product_template"."expense_policy", "product_template"."invoice_policy", "product_template"."tieuchuan", "product_template"."ncc", "product_template"."hs_code", "product_template"."country_of_origin", "product_template"."service_tracking" FROM "product_template" WHERE ("product_template"."id" IN (10, 9, 18))
+2024-05-02 16:24:02.324 +07 [37628] ERROR:  column product_template.tieuchuan does not exist at character 1549
+2024-05-02 16:24:02.324 +07 [37628] STATEMENT:  SELECT "product_template"."id", "product_template"."name"->>'en_US', "product_template"."sequence", "product_template"."description"->>'en_US', "product_template"."description_purchase"->>'en_US', "product_template"."description_sale"->>'en_US', "product_template"."detailed_type", "product_template"."type", "product_template"."categ_id", "product_template"."list_price", "product_template"."volume", "product_template"."weight", "product_template"."sale_ok", "product_template"."purchase_ok", "product_template"."uom_id", "product_template"."uom_po_id", "product_template"."company_id", "product_template"."active", "product_template"."color", "product_template"."default_code", "product_template"."can_image_1024_be_zoomed", "product_template"."has_configurable_attributes", "product_template"."priority", "product_template"."create_uid", "product_template"."create_date", "product_template"."write_uid", "product_template"."write_date", "product_template"."sale_delay", "product_template"."tracking", "product_template"."description_picking"->>'en_US', "product_template"."description_pickingout"->>'en_US', "product_template"."description_pickingin"->>'en_US', "product_template"."purchase_method", "product_template"."purchase_line_warn", "product_template"."purchase_line_warn_msg", "product_template"."available_in_pos", "product_template"."to_weight", "product_template"."service_type", "product_template"."sale_line_warn", "product_template"."sale_line_warn_msg", "product_template"."expense_policy", "product_template"."invoice_policy", "product_template"."tieuchuan", "product_template"."ncc", "product_template"."hs_code", "product_template"."country_of_origin", "product_template"."service_tracking" FROM "product_template" WHERE ("product_template"."id" IN (10, 9, 18))
+2024-05-02 16:24:30.212 +07 [37628] ERROR:  column product_template.tieuchuan does not exist at character 1549
+2024-05-02 16:24:30.212 +07 [37628] STATEMENT:  SELECT "product_template"."id", "product_template"."name"->>'en_US', "product_template"."sequence", "product_template"."description"->>'en_US', "product_template"."description_purchase"->>'en_US', "product_template"."description_sale"->>'en_US', "product_template"."detailed_type", "product_template"."type", "product_template"."categ_id", "product_template"."list_price", "product_template"."volume", "product_template"."weight", "product_template"."sale_ok", "product_template"."purchase_ok", "product_template"."uom_id", "product_template"."uom_po_id", "product_template"."company_id", "product_template"."active", "product_template"."color", "product_template"."default_code", "product_template"."can_image_1024_be_zoomed", "product_template"."has_configurable_attributes", "product_template"."priority", "product_template"."create_uid", "product_template"."create_date", "product_template"."write_uid", "product_template"."write_date", "product_template"."sale_delay", "product_template"."tracking", "product_template"."description_picking"->>'en_US', "product_template"."description_pickingout"->>'en_US', "product_template"."description_pickingin"->>'en_US', "product_template"."purchase_method", "product_template"."purchase_line_warn", "product_template"."purchase_line_warn_msg", "product_template"."available_in_pos", "product_template"."to_weight", "product_template"."service_type", "product_template"."sale_line_warn", "product_template"."sale_line_warn_msg", "product_template"."expense_policy", "product_template"."invoice_policy", "product_template"."tieuchuan", "product_template"."ncc", "product_template"."hs_code", "product_template"."country_of_origin", "product_template"."service_tracking" FROM "product_template" WHERE ("product_template"."id" IN (11, 61)) AND (("product_template"."company_id" IN (SELECT "res_company"."id" FROM "res_company" WHERE ("res_company"."id" IN (1)))) OR "product_template"."company_id" IS NULL)
+2024-05-02 16:24:32.414 +07 [37628] ERROR:  column product_template.tieuchuan does not exist at character 1549
+2024-05-02 16:24:32.414 +07 [37628] STATEMENT:  SELECT "product_template"."id", "product_template"."name"->>'en_US', "product_template"."sequence", "product_template"."description"->>'en_US', "product_template"."description_purchase"->>'en_US', "product_template"."description_sale"->>'en_US', "product_template"."detailed_type", "product_template"."type", "product_template"."categ_id", "product_template"."list_price", "product_template"."volume", "product_template"."weight", "product_template"."sale_ok", "product_template"."purchase_ok", "product_template"."uom_id", "product_template"."uom_po_id", "product_template"."company_id", "product_template"."active", "product_template"."color", "product_template"."default_code", "product_template"."can_image_1024_be_zoomed", "product_template"."has_configurable_attributes", "product_template"."priority", "product_template"."create_uid", "product_template"."create_date", "product_template"."write_uid", "product_template"."write_date", "product_template"."sale_delay", "product_template"."tracking", "product_template"."description_picking"->>'en_US', "product_template"."description_pickingout"->>'en_US', "product_template"."description_pickingin"->>'en_US', "product_template"."purchase_method", "product_template"."purchase_line_warn", "product_template"."purchase_line_warn_msg", "product_template"."available_in_pos", "product_template"."to_weight", "product_template"."service_type", "product_template"."sale_line_warn", "product_template"."sale_line_warn_msg", "product_template"."expense_policy", "product_template"."invoice_policy", "product_template"."tieuchuan", "product_template"."ncc", "product_template"."hs_code", "product_template"."country_of_origin", "product_template"."service_tracking" FROM "product_template" WHERE ("product_template"."id" IN (61)) AND (("product_template"."company_id" IN (SELECT "res_company"."id" FROM "res_company" WHERE ("res_company"."id" IN (1)))) OR "product_template"."company_id" IS NULL)
+2024-05-02 16:30:49.165 +07 [24520] ERROR:  column product_template.tieuchuan does not exist at character 1549
+2024-05-02 16:30:49.165 +07 [24520] STATEMENT:  SELECT "product_template"."id", "product_template"."name"->>'en_US', "product_template"."sequence", "product_template"."description"->>'en_US', "product_template"."description_purchase"->>'en_US', "product_template"."description_sale"->>'en_US', "product_template"."detailed_type", "product_template"."type", "product_template"."categ_id", "product_template"."list_price", "product_template"."volume", "product_template"."weight", "product_template"."sale_ok", "product_template"."purchase_ok", "product_template"."uom_id", "product_template"."uom_po_id", "product_template"."company_id", "product_template"."active", "product_template"."color", "product_template"."default_code", "product_template"."can_image_1024_be_zoomed", "product_template"."has_configurable_attributes", "product_template"."priority", "product_template"."create_uid", "product_template"."create_date", "product_template"."write_uid", "product_template"."write_date", "product_template"."sale_delay", "product_template"."tracking", "product_template"."description_picking"->>'en_US', "product_template"."description_pickingout"->>'en_US', "product_template"."description_pickingin"->>'en_US', "product_template"."purchase_method", "product_template"."purchase_line_warn", "product_template"."purchase_line_warn_msg", "product_template"."available_in_pos", "product_template"."to_weight", "product_template"."service_type", "product_template"."sale_line_warn", "product_template"."sale_line_warn_msg", "product_template"."expense_policy", "product_template"."invoice_policy", "product_template"."tieuchuan", "product_template"."ncc", "product_template"."hs_code", "product_template"."country_of_origin", "product_template"."service_tracking" FROM "product_template" WHERE ("product_template"."id" IN (14, 6, 20, 5))
+2024-05-02 16:46:05.260 +07 [37628] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:46:05.269 +07 [24520] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:46:05.270 +07 [40372] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:46:05.271 +07 [11452] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:46:05.289 +07 [8704] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:46:05.291 +07 [32352] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:46:05.306 +07 [9616] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:46:05.313 +07 [3792] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:46:05.315 +07 [9908] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:50:26.563 +07 [32824] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:50:26.571 +07 [33876] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:50:26.572 +07 [27180] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:50:26.578 +07 [19348] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:50:26.578 +07 [37292] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:50:26.578 +07 [25208] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:50:26.581 +07 [1772] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:50:26.585 +07 [34296] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:50:26.591 +07 [38088] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:55:07.744 +07 [39080] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:55:07.753 +07 [1752] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:55:07.754 +07 [40640] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:55:07.755 +07 [4572] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:55:07.757 +07 [37392] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:55:07.759 +07 [35904] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:55:07.761 +07 [19732] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:55:07.767 +07 [32200] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:55:07.767 +07 [36896] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:55:07.767 +07 [26580] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:55:56.744 +07 [38808] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:55:56.754 +07 [20844] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:55:56.756 +07 [37260] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:55:56.757 +07 [34196] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:55:56.759 +07 [31864] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:55:56.760 +07 [35908] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:55:56.760 +07 [33764] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:55:56.765 +07 [27240] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:55:56.770 +07 [36400] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:58:25.370 +07 [32940] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:58:25.377 +07 [12172] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:58:25.377 +07 [37340] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:58:25.380 +07 [38900] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:58:25.380 +07 [35124] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:58:25.382 +07 [34072] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:58:25.384 +07 [35832] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 16:58:25.386 +07 [34756] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:00:01.481 +07 [27756] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:00:01.491 +07 [28396] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:00:01.493 +07 [35940] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:00:01.495 +07 [40264] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:00:01.496 +07 [11068] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:00:01.502 +07 [29836] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:00:01.503 +07 [35304] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:00:01.503 +07 [30960] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:00:01.503 +07 [32336] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:01:18.480 +07 [5392] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:01:18.490 +07 [11692] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:01:18.490 +07 [29860] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:01:18.491 +07 [34656] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:01:18.495 +07 [22720] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:01:18.495 +07 [14388] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:01:18.496 +07 [40932] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:01:18.502 +07 [29168] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:03:43.210 +07 [25260] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:03:43.220 +07 [20764] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:03:43.220 +07 [29916] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:03:43.221 +07 [26012] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:03:43.222 +07 [40860] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:03:43.226 +07 [36948] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:03:43.226 +07 [38272] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:03:43.228 +07 [34020] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:03:43.228 +07 [36148] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:13:43.603 +07 [39840] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:13:43.605 +07 [25504] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:13:43.605 +07 [18888] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:13:43.606 +07 [39032] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:13:43.607 +07 [36836] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:13:43.608 +07 [32752] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:13:43.610 +07 [40828] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:13:43.610 +07 [22788] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:13:43.611 +07 [35348] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:15:24.877 +07 [14644] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:15:24.887 +07 [31932] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:15:24.887 +07 [39596] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:15:24.890 +07 [39248] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:15:24.891 +07 [39964] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:15:24.890 +07 [27512] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:15:24.894 +07 [33136] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:15:24.895 +07 [36900] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:15:24.900 +07 [36592] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:17:58.538 +07 [38544] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:17:58.545 +07 [1772] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:17:58.549 +07 [36012] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:17:58.549 +07 [33196] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:17:58.553 +07 [4692] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:17:58.553 +07 [32904] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:17:58.554 +07 [40620] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:17:58.556 +07 [30080] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:20:17.054 +07 [25796] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:20:17.063 +07 [39256] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:20:17.064 +07 [40148] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:20:17.065 +07 [39432] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:20:17.066 +07 [39872] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:20:17.071 +07 [40024] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:20:17.071 +07 [33280] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:20:17.073 +07 [35980] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:20:35.117 +07 [35060] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:20:35.118 +07 [35996] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:20:35.119 +07 [33892] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:20:35.120 +07 [40380] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:21:42.773 +07 [5364] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:21:42.780 +07 [37748] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:21:42.784 +07 [29580] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:21:42.787 +07 [15940] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:21:42.792 +07 [27692] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:21:42.793 +07 [40020] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:21:42.798 +07 [4092] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:21:42.800 +07 [30636] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:21:42.801 +07 [35132] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:33:24.705 +07 [38552] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:33:24.716 +07 [34500] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:33:24.719 +07 [38160] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:33:24.720 +07 [25240] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:33:24.723 +07 [33616] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-02 17:33:24.727 +07 [35176] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

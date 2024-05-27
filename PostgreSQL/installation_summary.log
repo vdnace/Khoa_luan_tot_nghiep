@@ -1,0 +1,14 @@
+
+Installation Directory: D:\Thuc tap\PostgreSQL
+Server Installation Directory: D:\Thuc tap\PostgreSQL
+Data Directory: D:\Thuc tap\PostgreSQL\data
+Database Port: 5432
+Database Superuser: admin
+Operating System Account: openpgsvc
+Database Service: PostgreSQL_For_Odoo
+Command Line Tools Installation Directory: D:\Thuc tap\PostgreSQL
+pgAdmin4 Installation Directory: D:\Thuc tap\PostgreSQL\pgAdmin 4
+Stack Builder Installation Directory: D:\Thuc tap\PostgreSQL\stackbuilder
+
+===== Installation completed at: 2024-04-05(YYYY-MM-DD) - 18:15:20(HH:MM:SS) =====
+                            

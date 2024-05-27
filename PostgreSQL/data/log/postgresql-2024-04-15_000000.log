@@ -1,0 +1,255 @@
+2024-04-16 15:39:27.444 +07 [1676] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:39:27.447 +07 [15540] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:39:49.080 +07 [19320] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:39:49.081 +07 [23804] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:44:35.472 +07 [15508] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:44:35.472 +07 [10968] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:44:35.473 +07 [15676] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:44:35.473 +07 [25688] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:44:35.476 +07 [26820] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:44:35.479 +07 [18612] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:44:35.485 +07 [25428] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:47:07.055 +07 [25516] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:47:07.055 +07 [20736] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:47:07.058 +07 [5304] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:47:07.062 +07 [16808] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:47:07.062 +07 [13764] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:47:07.062 +07 [2936] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:47:07.067 +07 [11928] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:47:07.070 +07 [22840] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:47:07.070 +07 [23420] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:51:56.588 +07 [7272] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:51:56.589 +07 [3600] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:51:56.594 +07 [14940] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:51:56.595 +07 [25792] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:51:56.599 +07 [12912] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:51:56.601 +07 [23908] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:52:43.079 +07 [25472] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:52:43.079 +07 [16808] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:52:43.079 +07 [7428] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:52:43.082 +07 [2584] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:56:18.460 +07 [23124] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:56:18.461 +07 [21716] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:56:18.461 +07 [6784] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:56:18.463 +07 [4148] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:56:18.463 +07 [14572] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:56:18.466 +07 [24688] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:56:18.472 +07 [21432] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:57:27.740 +07 [28032] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:57:27.740 +07 [25128] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:57:27.740 +07 [13584] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 15:57:27.742 +07 [9300] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:00:08.643 +07 [27760] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:00:08.644 +07 [21564] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:00:08.643 +07 [8724] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:00:08.645 +07 [22484] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:00:08.647 +07 [8220] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:00:08.648 +07 [16496] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:00:08.648 +07 [21256] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:00:08.649 +07 [20852] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:00:08.650 +07 [26692] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:07:23.758 +07 [24056] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:07:23.758 +07 [26548] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:07:23.777 +07 [13444] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:07:23.785 +07 [4624] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:07:23.789 +07 [23704] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:09:23.175 +07 [17832] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:09:23.179 +07 [17772] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:09:23.207 +07 [25492] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:09:23.211 +07 [28440] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:09:23.220 +07 [22308] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:09:23.255 +07 [11668] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:11:27.082 +07 [4580] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:11:27.082 +07 [21764] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:11:27.083 +07 [4076] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:11:27.083 +07 [19312] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:14:50.893 +07 [23396] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:14:50.896 +07 [22100] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:14:50.896 +07 [21924] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:14:50.898 +07 [17828] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:14:50.900 +07 [464] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:14:50.900 +07 [23392] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:14:50.901 +07 [21664] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:14:50.904 +07 [23136] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:18:30.346 +07 [5304] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:18:30.346 +07 [27872] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:18:30.346 +07 [3592] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:18:30.347 +07 [24008] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:18:30.347 +07 [25704] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:18:30.347 +07 [3200] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 16:18:30.347 +07 [12980] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 17:32:45.291 +07 [22260] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 17:32:45.292 +07 [10528] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 17:32:45.295 +07 [27096] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 17:32:45.310 +07 [3420] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 17:32:45.312 +07 [26000] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-16 17:32:45.314 +07 [15668] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 14:14:53.004 +07 [14532] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 14:14:53.004 +07 [11160] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 14:18:29.642 +07 [26980] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 14:18:29.642 +07 [24000] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 14:18:29.642 +07 [8216] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 14:18:29.643 +07 [8216] LOG:  unexpected EOF on client connection with an open transaction
+2024-04-17 14:24:00.196 +07 [17428] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 14:24:00.199 +07 [16492] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 14:24:39.814 +07 [26288] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 14:24:39.815 +07 [23416] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:07:34.165 +07 [30256] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:07:34.175 +07 [20104] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:07:34.182 +07 [16340] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:07:34.183 +07 [18000] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:07:34.196 +07 [29056] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:07:34.215 +07 [30296] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:15:53.667 +07 [29972] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:15:53.668 +07 [7356] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:15:53.670 +07 [456] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:15:53.670 +07 [11332] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:15:53.670 +07 [3296] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:15:53.672 +07 [30052] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:15:53.673 +07 [23932] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:15:53.674 +07 [13832] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:15:53.677 +07 [29176] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:23:20.614 +07 [29804] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:23:20.617 +07 [25780] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:23:20.617 +07 [29796] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:23:20.619 +07 [24592] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:23:20.619 +07 [30340] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:23:20.624 +07 [6380] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:23:20.627 +07 [9384] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:23:20.630 +07 [20720] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:31:36.488 +07 [10228] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:31:36.488 +07 [6940] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:31:36.491 +07 [25824] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:31:36.492 +07 [8264] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:31:36.495 +07 [19072] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:31:36.496 +07 [11304] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:31:36.496 +07 [28820] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:31:36.496 +07 [26164] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-04-17 17:31:36.496 +07 [22504] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

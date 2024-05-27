@@ -1,0 +1,1 @@
+from . import farming_product, farming_purchase, farming_inventory, farming_purchaseline, farming_inventory_move, farming_inventory_lot, farming_inventory_move_line

@@ -1,0 +1,18 @@
+<odoo>
+    <template id="product_inherit" inherit_id="website_sale.product">
+        <xpath expr="//p[@t-field='product.description_sale']" position="after">
+            <p t-if="product.uom_name">
+                <span><strong>Đơn vị:</strong> </span><span t-field="product.uom_name"/>
+            </p>
+            <p t-if="product.expiration_time">
+                <span><strong>Hạn sử dụng:</strong> </span><span t-field="product.expiration_time"/><span> ngày</span>
+            </p>
+            <p t-if="product.ncc">
+                <span><strong>Nhà cung cấp:</strong> </span><span t-field="product.ncc"/>
+            </p>
+            <p t-if="product.tieuchuan">
+                <span><strong>Tiêu chuẩn:</strong> </span><span t-field="product.tieuchuan"/>
+            </p>
+        </xpath>
+    </template>
+</odoo>

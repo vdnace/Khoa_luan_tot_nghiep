@@ -1,0 +1,61 @@
+<odoo>
+    <template id="qr_scan_template" name="QR Scan Page">
+        <t t-call="website.layout">
+            <t t-set="title">Scan QR Code</t>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Quét QR Code</h2>
+                        <div id="qr-reader" style="width: 100%;"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Kết quả</h2>
+                        <div id="qr-reader-results"></div>
+                    </div>
+                </div>
+            </div>
+            <t t-set="head">
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/html5-qrcode/2.3.8/html5-qrcode.min.js"></script>
+                <script>
+                    window.onload = function() {
+                        console.log("JavaScript is running"); // Thêm console log để kiểm tra
+
+                        function onScanSuccess(qrCodeMessage) {
+                            console.log('QR code scanned:', qrCodeMessage); // Thêm console log để kiểm tra
+                            document.getElementById('qr-reader-results').innerText = qrCodeMessage;
+                        }
+
+                        function onScanFailure(error) {
+                            console.warn(`QR error = ${error}`);
+                        }
+
+                        // Khởi tạo quét mã QR trực tiếp từ camera
+                        let html5QrcodeScanner = new Html5QrcodeScanner(
+                            "qr-reader", { fps: 10, qrbox: 250 });
+                        html5QrcodeScanner.render(onScanSuccess, onScanFailure);
+                    };
+                    aaaaaa
+                </script>
+                <style>
+                    .row {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    .col-md-6 {
+                        flex: 0 0 48%;
+                        max-width: 48%;
+                        box-sizing: border-box;
+                        padding: 10px;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                        background: #f9f9f9;
+                    }
+                    #qr-reader, #qr-reader-results {
+                        margin-top: 20px;
+                        margin-bottom: 100px;
+                    }
+                </style>
+            </t>
+        </t>
+    </template>
+</odoo>

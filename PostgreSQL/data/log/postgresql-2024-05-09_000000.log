@@ -1,0 +1,6 @@
+2024-05-10 13:32:54.622 +07 [8080] LOG:  received fast shutdown request
+2024-05-10 13:32:54.629 +07 [8080] LOG:  aborting any active transactions
+2024-05-10 13:32:54.633 +07 [4152] ERROR:  canceling statement due to user request
+2024-05-10 13:32:54.639 +07 [8080] LOG:  background worker "logical replication launcher" (PID 4152) exited with exit code 1
+2024-05-10 13:32:54.647 +07 [5020] LOG:  shutting down
+2024-05-10 13:32:54.692 +07 [8080] LOG:  database system is shut down

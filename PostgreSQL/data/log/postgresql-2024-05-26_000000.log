@@ -1,0 +1,87 @@
+2024-05-26 13:19:03.377 +07 [28280] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-26 13:19:03.394 +07 [42452] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-26 13:19:03.412 +07 [50988] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-26 13:19:03.413 +07 [7516] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-26 13:19:03.422 +07 [13188] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-26 13:19:03.425 +07 [30108] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-26 15:55:22.961 +07 [46932] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-26 15:55:22.961 +07 [35624] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-26 17:39:51.892 +07 [15048] ERROR:  column "ngaysx" contains null values
+2024-05-26 17:39:51.892 +07 [15048] STATEMENT:  ALTER TABLE "stock_lot" ALTER COLUMN "ngaysx" SET NOT NULL
+2024-05-26 17:39:51.897 +07 [15048] ERROR:  column "ngaysx" contains null values
+2024-05-26 17:39:51.897 +07 [15048] STATEMENT:  ALTER TABLE "stock_move_line" ALTER COLUMN "ngaysx" SET NOT NULL
+2024-05-26 17:40:47.785 +07 [15048] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-26 17:40:47.804 +07 [33760] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-26 17:40:47.811 +07 [25884] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-26 17:40:47.813 +07 [36580] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-26 17:40:47.812 +07 [27664] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-26 17:40:47.821 +07 [26184] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-26 17:40:47.830 +07 [50676] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-26 17:40:47.837 +07 [51456] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-26 17:41:02.320 +07 [49080] ERROR:  column "ngaysx" contains null values
+2024-05-26 17:41:02.320 +07 [49080] STATEMENT:  ALTER TABLE "stock_lot" ALTER COLUMN "ngaysx" SET NOT NULL
+2024-05-26 17:41:02.324 +07 [49080] ERROR:  column "ngaysx" contains null values
+2024-05-26 17:41:02.324 +07 [49080] STATEMENT:  ALTER TABLE "stock_move_line" ALTER COLUMN "ngaysx" SET NOT NULL
+2024-05-26 17:41:03.213 +07 [49080] ERROR:  column "ngaysx" contains null values
+2024-05-26 17:41:03.213 +07 [49080] STATEMENT:  ALTER TABLE "stock_lot" ALTER COLUMN "ngaysx" SET NOT NULL
+2024-05-26 17:41:03.217 +07 [49080] ERROR:  column "ngaysx" contains null values
+2024-05-26 17:41:03.217 +07 [49080] STATEMENT:  ALTER TABLE "stock_move_line" ALTER COLUMN "ngaysx" SET NOT NULL
+2024-05-26 17:41:03.826 +07 [49080] ERROR:  column "ngaysx" contains null values
+2024-05-26 17:41:03.826 +07 [49080] STATEMENT:  ALTER TABLE "stock_lot" ALTER COLUMN "ngaysx" SET NOT NULL
+2024-05-26 17:41:03.836 +07 [49080] ERROR:  column "ngaysx" contains null values
+2024-05-26 17:41:03.836 +07 [49080] STATEMENT:  ALTER TABLE "stock_move_line" ALTER COLUMN "ngaysx" SET NOT NULL
+2024-05-26 21:05:43.505 +07 [36248] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-26 21:05:43.512 +07 [29460] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-26 21:05:43.518 +07 [13680] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-26 21:05:43.529 +07 [33852] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-26 21:05:43.552 +07 [51568] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-26 21:05:43.552 +07 [500] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-27 05:54:14.707 +07 [42152] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-27 05:54:14.707 +07 [39152] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-27 05:54:14.708 +07 [38232] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-27 05:54:14.708 +07 [47228] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-27 05:54:14.709 +07 [32436] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-27 05:54:14.712 +07 [50456] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-27 05:55:52.268 +07 [8524] ERROR:  column "ngaysx" contains null values
+2024-05-27 05:55:52.268 +07 [8524] STATEMENT:  ALTER TABLE "stock_lot" ALTER COLUMN "ngaysx" SET NOT NULL
+2024-05-27 05:55:52.273 +07 [8524] ERROR:  column "ngaysx" contains null values
+2024-05-27 05:55:52.273 +07 [8524] STATEMENT:  ALTER TABLE "stock_move_line" ALTER COLUMN "ngaysx" SET NOT NULL
+2024-05-27 05:55:53.111 +07 [8524] ERROR:  column "ngaysx" contains null values
+2024-05-27 05:55:53.111 +07 [8524] STATEMENT:  ALTER TABLE "stock_lot" ALTER COLUMN "ngaysx" SET NOT NULL
+2024-05-27 05:55:53.115 +07 [8524] ERROR:  column "ngaysx" contains null values
+2024-05-27 05:55:53.115 +07 [8524] STATEMENT:  ALTER TABLE "stock_move_line" ALTER COLUMN "ngaysx" SET NOT NULL
+2024-05-27 05:55:53.568 +07 [8524] ERROR:  column "ngaysx" contains null values
+2024-05-27 05:55:53.568 +07 [8524] STATEMENT:  ALTER TABLE "stock_move_line" ALTER COLUMN "ngaysx" SET NOT NULL
+2024-05-27 05:55:53.571 +07 [8524] ERROR:  column "ngaysx" contains null values
+2024-05-27 05:55:53.571 +07 [8524] STATEMENT:  ALTER TABLE "stock_lot" ALTER COLUMN "ngaysx" SET NOT NULL
+2024-05-27 08:23:51.720 +07 [2936] ERROR:  column "line" does not exist at character 43
+2024-05-27 08:23:51.720 +07 [2936] STATEMENT:  SELECT x.* FROM public.sale_order x
+	WHERE line

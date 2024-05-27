@@ -1,0 +1,29 @@
+2024-04-12 13:28:53.807 +07 [7328] LOG:  database system was shut down at 2024-04-12 13:28:19 +07
+2024-04-12 13:28:53.881 +07 [6500] LOG:  database system is ready to accept connections
+2024-04-12 14:00:27.747 +07 [19816] ERROR:  update or delete on table "product_template_attribute_value" violates foreign key constraint "product_variant_combination_product_template_attribute_val_fkey" on table "product_variant_combination"
+2024-04-12 14:00:27.747 +07 [19816] DETAIL:  Key (id)=(13) is still referenced from table "product_variant_combination".
+2024-04-12 14:00:27.747 +07 [19816] STATEMENT:  DELETE FROM "product_template_attribute_value" WHERE id IN (13)
+2024-04-12 17:34:00.466 +07 [19816] ERROR:  duplicate key value violates unique constraint "account_journal_code_company_uniq"
+2024-04-12 17:34:00.466 +07 [19816] DETAIL:  Key (company_id, code)=(1, INV) already exists.
+2024-04-12 17:34:00.466 +07 [19816] STATEMENT:  INSERT INTO "account_journal" ("active", "alias_id", "bank_account_id", "bank_statements_source", "code", "color", "company_id", "create_date", "create_uid", "currency_id", "invoice_reference_model", "invoice_reference_type", "loss_account_id", "name", "payment_sequence", "profit_account_id", "refund_sequence", "sale_activity_note", "sale_activity_type_id", "sale_activity_user_id", "sequence", "show_on_dashboard", "type", "write_date", "write_uid") VALUES (true, 7, NULL, 'undefined', 'INV', 0, 1, '2024-04-12 10:34:00.449875', 2, 23, 'odoo', 'invoice', NULL, '{"en_US": "ETC"}', false, NULL, true, NULL, NULL, NULL, 10, true, 'sale', '2024-04-12 10:34:00.449875', 2) RETURNING "id"
+2024-04-12 17:34:06.967 +07 [19816] ERROR:  duplicate key value violates unique constraint "account_journal_code_company_uniq"
+2024-04-12 17:34:06.967 +07 [19816] DETAIL:  Key (company_id, code)=(1, INV) already exists.
+2024-04-12 17:34:06.967 +07 [19816] STATEMENT:  INSERT INTO "account_journal" ("active", "alias_id", "bank_account_id", "bank_statements_source", "code", "color", "company_id", "create_date", "create_uid", "currency_id", "invoice_reference_model", "invoice_reference_type", "loss_account_id", "name", "payment_sequence", "profit_account_id", "refund_sequence", "sale_activity_note", "sale_activity_type_id", "sale_activity_user_id", "sequence", "show_on_dashboard", "type", "write_date", "write_uid") VALUES (true, 8, NULL, 'undefined', 'INV', 0, 1, '2024-04-12 10:34:06.956373', 2, 23, 'odoo', 'invoice', NULL, '{"en_US": "ETC"}', false, NULL, true, NULL, NULL, NULL, 10, true, 'sale', '2024-04-12 10:34:06.956373', 2) RETURNING "id"
+2024-04-13 21:19:14.505 +07 [14528] ERROR:  could not serialize access due to concurrent update
+2024-04-13 21:19:14.505 +07 [14528] STATEMENT:  
+	            SELECT *
+	            FROM ir_cron
+	            WHERE active = true
+	              AND numbercall != 0
+	              AND (nextcall <= (now() at time zone 'UTC')
+	                OR EXISTS (
+	                    SELECT cron_id
+	                    FROM ir_cron_trigger
+	                    WHERE call_at <= (now() at time zone 'UTC')
+	                      AND cron_id = ir_cron.id
+	                )
+	              )
+	              AND id in (14)
+	            ORDER BY priority
+	            LIMIT 1 FOR NO KEY UPDATE SKIP LOCKED
+	        

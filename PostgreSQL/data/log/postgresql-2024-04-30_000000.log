@@ -1,0 +1,47 @@
+2024-05-02 13:52:42.669 +07 [3688] ERROR:  could not serialize access due to concurrent update
+2024-05-02 13:52:42.669 +07 [3688] STATEMENT:  
+	                WITH visitor AS (
+	                    
+	            INSERT INTO website_visitor (
+	                partner_id, access_token, last_connection_datetime, visit_count, lang_id,
+	                website_id, timezone, write_uid, create_uid, write_date, create_date, country_id)
+	            VALUES (
+	                3, 3, now() at time zone 'UTC', 1, 1,
+	                1, 'Asia/Bangkok', 2, 2,
+	                now() at time zone 'UTC', now() at time zone 'UTC', (
+	                    SELECT id FROM res_country WHERE code = NULL
+	                )
+	            )
+	            ON CONFLICT (access_token)
+	            DO UPDATE SET
+	                last_connection_datetime=excluded.last_connection_datetime,
+	                visit_count = CASE WHEN website_visitor.last_connection_datetime < NOW() AT TIME ZONE 'UTC' - INTERVAL '8 hours'
+	                                    THEN website_visitor.visit_count + 1
+	                                    ELSE website_visitor.visit_count
+	                                END
+	            RETURNING id, CASE WHEN create_date = now() at time zone 'UTC' THEN 'inserted' ELSE 'updated' END AS upsert
+	        , 'http://localhost:8069/contactus' AS url, 3 AS page_id
+	                ), track AS (
+	                    INSERT INTO website_track (visitor_id, url, page_id, visit_datetime)
+	                    SELECT id, url, page_id::integer, now() at time zone 'UTC' FROM visitor
+	                )
+	                SELECT id, upsert from visitor;
+	            
+2024-05-02 13:53:08.238 +07 [25016] ERROR:  update or delete on table "ir_ui_view" violates foreign key constraint "ir_ui_view_inherit_id_fkey" on table "ir_ui_view"
+2024-05-02 13:53:08.238 +07 [25016] DETAIL:  Key (id)=(1770) is still referenced from table "ir_ui_view".
+2024-05-02 13:53:08.238 +07 [25016] STATEMENT:  DELETE FROM "ir_ui_view" WHERE id IN (1842, 1841, 1843, 1840, 1830, 1828, 1802, 1825, 1813, 1804, 1812, 1770, 1823, 1761)
+2024-05-02 13:53:08.332 +07 [25016] ERROR:  update or delete on table "ir_ui_view" violates foreign key constraint "ir_ui_view_inherit_id_fkey" on table "ir_ui_view"
+2024-05-02 13:53:08.332 +07 [25016] DETAIL:  Key (id)=(1830) is still referenced from table "ir_ui_view".
+2024-05-02 13:53:08.332 +07 [25016] STATEMENT:  DELETE FROM "ir_ui_view" WHERE id IN (1842, 1841, 1843, 1840, 1830, 1828)
+2024-05-02 13:53:08.397 +07 [25016] ERROR:  update or delete on table "ir_ui_view" violates foreign key constraint "ir_ui_view_inherit_id_fkey" on table "ir_ui_view"
+2024-05-02 13:53:08.397 +07 [25016] DETAIL:  Key (id)=(1830) is still referenced from table "ir_ui_view".
+2024-05-02 13:53:08.397 +07 [25016] STATEMENT:  DELETE FROM "ir_ui_view" WHERE id IN (1842, 1841, 1843, 1840, 1830, 1828)
+2024-05-02 13:53:08.496 +07 [25016] ERROR:  update or delete on table "ir_ui_view" violates foreign key constraint "ir_ui_view_inherit_id_fkey" on table "ir_ui_view"
+2024-05-02 13:53:08.496 +07 [25016] DETAIL:  Key (id)=(1830) is still referenced from table "ir_ui_view".
+2024-05-02 13:53:08.496 +07 [25016] STATEMENT:  DELETE FROM "ir_ui_view" WHERE id IN (1830, 1828)
+2024-05-02 13:53:08.836 +07 [25016] ERROR:  update or delete on table "ir_ui_view" violates foreign key constraint "ir_ui_view_inherit_id_fkey" on table "ir_ui_view"
+2024-05-02 13:53:08.836 +07 [25016] DETAIL:  Key (id)=(1770) is still referenced from table "ir_ui_view".
+2024-05-02 13:53:08.836 +07 [25016] STATEMENT:  DELETE FROM "ir_ui_view" WHERE id IN (1802, 1770, 1761)
+2024-05-02 13:53:08.981 +07 [25016] ERROR:  update or delete on table "ir_ui_view" violates foreign key constraint "ir_ui_view_inherit_id_fkey" on table "ir_ui_view"
+2024-05-02 13:53:08.981 +07 [25016] DETAIL:  Key (id)=(1770) is still referenced from table "ir_ui_view".
+2024-05-02 13:53:08.981 +07 [25016] STATEMENT:  DELETE FROM "ir_ui_view" WHERE id IN (1770, 1761)

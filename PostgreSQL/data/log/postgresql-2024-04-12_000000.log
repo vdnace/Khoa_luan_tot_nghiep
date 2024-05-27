@@ -1,0 +1,12 @@
+2024-04-12 13:28:19.624 +07 [6424] LOG:  received fast shutdown request
+2024-04-12 13:28:19.631 +07 [6424] LOG:  aborting any active transactions
+2024-04-12 13:28:19.641 +07 [1164] ERROR:  canceling statement due to user request
+2024-04-12 13:28:19.644 +07 [17148] FATAL:  terminating connection due to administrator command
+2024-04-12 13:28:19.645 +07 [13516] FATAL:  terminating connection due to administrator command
+2024-04-12 13:28:19.645 +07 [1780] FATAL:  terminating connection due to administrator command
+2024-04-12 13:28:19.646 +07 [5048] FATAL:  terminating connection due to administrator command
+2024-04-12 13:28:19.647 +07 [12484] FATAL:  terminating connection due to administrator command
+2024-04-12 13:28:19.647 +07 [8544] FATAL:  terminating connection due to administrator command
+2024-04-12 13:28:19.650 +07 [6424] LOG:  background worker "logical replication launcher" (PID 1164) exited with exit code 1
+2024-04-12 13:28:19.676 +07 [4532] LOG:  shutting down
+2024-04-12 13:28:19.819 +07 [6424] LOG:  database system is shut down

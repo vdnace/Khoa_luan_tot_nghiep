@@ -1,0 +1,216 @@
+2024-05-06 13:33:38.843 +07 [20568] ERROR:  could not serialize access due to concurrent update
+2024-05-06 13:33:38.843 +07 [20568] STATEMENT:  
+	            SELECT *
+	            FROM ir_cron
+	            WHERE active = true
+	              AND numbercall != 0
+	              AND (nextcall <= (now() at time zone 'UTC')
+	                OR EXISTS (
+	                    SELECT cron_id
+	                    FROM ir_cron_trigger
+	                    WHERE call_at <= (now() at time zone 'UTC')
+	                      AND cron_id = ir_cron.id
+	                )
+	              )
+	              AND id in (3)
+	            ORDER BY priority
+	            LIMIT 1 FOR NO KEY UPDATE SKIP LOCKED
+	        
+2024-05-06 13:50:09.615 +07 [23744] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 13:50:09.615 +07 [1928] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 13:50:09.616 +07 [13868] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 13:50:09.617 +07 [2820] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 13:50:09.617 +07 [12936] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 13:50:09.617 +07 [23932] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 13:52:20.107 +07 [23228] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 13:52:20.115 +07 [22240] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 13:52:20.119 +07 [10032] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 13:52:20.119 +07 [5084] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 13:52:20.124 +07 [17284] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 13:52:20.125 +07 [24264] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 13:52:20.124 +07 [4272] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 13:52:20.127 +07 [23624] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 13:52:20.128 +07 [8284] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 13:55:22.243 +07 [21316] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 13:55:22.252 +07 [9296] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 13:55:22.252 +07 [24092] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 13:55:22.252 +07 [19588] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 13:55:22.254 +07 [15720] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 13:55:22.254 +07 [20848] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 13:55:22.255 +07 [21416] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 13:55:22.260 +07 [12132] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 14:06:12.734 +07 [21216] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 14:06:12.743 +07 [20516] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 14:06:12.744 +07 [10824] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 14:06:12.745 +07 [19820] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 14:06:12.745 +07 [14752] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 14:06:12.748 +07 [24436] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 14:27:17.937 +07 [24356] ERROR:  column product_template.tieuchuan does not exist at character 1549
+2024-05-06 14:27:17.937 +07 [24356] STATEMENT:  SELECT "product_template"."id", "product_template"."name"->>'en_US', "product_template"."sequence", "product_template"."description"->>'en_US', "product_template"."description_purchase"->>'en_US', "product_template"."description_sale"->>'en_US', "product_template"."detailed_type", "product_template"."type", "product_template"."categ_id", "product_template"."list_price", "product_template"."volume", "product_template"."weight", "product_template"."sale_ok", "product_template"."purchase_ok", "product_template"."uom_id", "product_template"."uom_po_id", "product_template"."company_id", "product_template"."active", "product_template"."color", "product_template"."default_code", "product_template"."can_image_1024_be_zoomed", "product_template"."has_configurable_attributes", "product_template"."priority", "product_template"."create_uid", "product_template"."create_date", "product_template"."write_uid", "product_template"."write_date", "product_template"."sale_delay", "product_template"."tracking", "product_template"."description_picking"->>'en_US', "product_template"."description_pickingout"->>'en_US', "product_template"."description_pickingin"->>'en_US', "product_template"."purchase_method", "product_template"."purchase_line_warn", "product_template"."purchase_line_warn_msg", "product_template"."available_in_pos", "product_template"."to_weight", "product_template"."service_type", "product_template"."sale_line_warn", "product_template"."sale_line_warn_msg", "product_template"."expense_policy", "product_template"."invoice_policy", "product_template"."tieuchuan", "product_template"."ncc", "product_template"."hs_code", "product_template"."country_of_origin", "product_template"."service_tracking" FROM "product_template" WHERE ("product_template"."id" IN (9, 10, 51, 23, 17, 13, 19, 20, 6, 5, 27, 21, 22, 4))
+2024-05-06 14:27:18.018 +07 [24356] ERROR:  column product_template.tieuchuan does not exist at character 1549
+2024-05-06 14:27:18.018 +07 [24356] STATEMENT:  SELECT "product_template"."id", "product_template"."name"->>'en_US', "product_template"."sequence", "product_template"."description"->>'en_US', "product_template"."description_purchase"->>'en_US', "product_template"."description_sale"->>'en_US', "product_template"."detailed_type", "product_template"."type", "product_template"."categ_id", "product_template"."list_price", "product_template"."volume", "product_template"."weight", "product_template"."sale_ok", "product_template"."purchase_ok", "product_template"."uom_id", "product_template"."uom_po_id", "product_template"."company_id", "product_template"."active", "product_template"."color", "product_template"."default_code", "product_template"."can_image_1024_be_zoomed", "product_template"."has_configurable_attributes", "product_template"."priority", "product_template"."create_uid", "product_template"."create_date", "product_template"."write_uid", "product_template"."write_date", "product_template"."sale_delay", "product_template"."tracking", "product_template"."description_picking"->>'en_US', "product_template"."description_pickingout"->>'en_US', "product_template"."description_pickingin"->>'en_US', "product_template"."purchase_method", "product_template"."purchase_line_warn", "product_template"."purchase_line_warn_msg", "product_template"."available_in_pos", "product_template"."to_weight", "product_template"."service_type", "product_template"."sale_line_warn", "product_template"."sale_line_warn_msg", "product_template"."expense_policy", "product_template"."invoice_policy", "product_template"."tieuchuan", "product_template"."ncc", "product_template"."hs_code", "product_template"."country_of_origin", "product_template"."service_tracking" FROM "product_template" WHERE ("product_template"."id" IN (9, 10, 51, 23, 17, 13, 19, 20, 6, 5, 27, 21, 22, 4))
+2024-05-06 14:27:18.049 +07 [24356] ERROR:  column product_template.tieuchuan does not exist at character 1549
+2024-05-06 14:27:18.049 +07 [24356] STATEMENT:  SELECT "product_template"."id", "product_template"."name"->>'en_US', "product_template"."sequence", "product_template"."description"->>'en_US', "product_template"."description_purchase"->>'en_US', "product_template"."description_sale"->>'en_US', "product_template"."detailed_type", "product_template"."type", "product_template"."categ_id", "product_template"."list_price", "product_template"."volume", "product_template"."weight", "product_template"."sale_ok", "product_template"."purchase_ok", "product_template"."uom_id", "product_template"."uom_po_id", "product_template"."company_id", "product_template"."active", "product_template"."color", "product_template"."default_code", "product_template"."can_image_1024_be_zoomed", "product_template"."has_configurable_attributes", "product_template"."priority", "product_template"."create_uid", "product_template"."create_date", "product_template"."write_uid", "product_template"."write_date", "product_template"."sale_delay", "product_template"."tracking", "product_template"."description_picking"->>'en_US', "product_template"."description_pickingout"->>'en_US', "product_template"."description_pickingin"->>'en_US', "product_template"."purchase_method", "product_template"."purchase_line_warn", "product_template"."purchase_line_warn_msg", "product_template"."available_in_pos", "product_template"."to_weight", "product_template"."service_type", "product_template"."sale_line_warn", "product_template"."sale_line_warn_msg", "product_template"."expense_policy", "product_template"."invoice_policy", "product_template"."tieuchuan", "product_template"."ncc", "product_template"."hs_code", "product_template"."country_of_origin", "product_template"."service_tracking" FROM "product_template" WHERE ("product_template"."id" IN (9, 10, 51, 23, 17, 13, 19, 20, 6, 5, 27, 21, 22, 4))
+2024-05-06 14:27:18.120 +07 [68] ERROR:  column product_template.tieuchuan does not exist at character 1549
+2024-05-06 14:27:18.120 +07 [68] STATEMENT:  SELECT "product_template"."id", "product_template"."name"->>'en_US', "product_template"."sequence", "product_template"."description"->>'en_US', "product_template"."description_purchase"->>'en_US', "product_template"."description_sale"->>'en_US', "product_template"."detailed_type", "product_template"."type", "product_template"."categ_id", "product_template"."list_price", "product_template"."volume", "product_template"."weight", "product_template"."sale_ok", "product_template"."purchase_ok", "product_template"."uom_id", "product_template"."uom_po_id", "product_template"."company_id", "product_template"."active", "product_template"."color", "product_template"."default_code", "product_template"."can_image_1024_be_zoomed", "product_template"."has_configurable_attributes", "product_template"."priority", "product_template"."create_uid", "product_template"."create_date", "product_template"."write_uid", "product_template"."write_date", "product_template"."sale_delay", "product_template"."tracking", "product_template"."description_picking"->>'en_US', "product_template"."description_pickingout"->>'en_US', "product_template"."description_pickingin"->>'en_US', "product_template"."purchase_method", "product_template"."purchase_line_warn", "product_template"."purchase_line_warn_msg", "product_template"."available_in_pos", "product_template"."to_weight", "product_template"."service_type", "product_template"."sale_line_warn", "product_template"."sale_line_warn_msg", "product_template"."expense_policy", "product_template"."invoice_policy", "product_template"."tieuchuan", "product_template"."ncc", "product_template"."hs_code", "product_template"."country_of_origin", "product_template"."service_tracking" FROM "product_template" WHERE ("product_template"."id" IN (14, 6, 20, 5))
+2024-05-06 14:46:32.006 +07 [68] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 14:46:32.006 +07 [24356] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 14:46:32.007 +07 [23844] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 14:46:32.018 +07 [19868] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 14:46:32.018 +07 [5544] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 14:46:32.018 +07 [4836] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 14:46:32.022 +07 [18708] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 14:46:32.031 +07 [20832] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 14:46:32.025 +07 [19908] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 14:46:32.031 +07 [17088] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 14:46:32.040 +07 [20120] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 14:58:49.470 +07 [2384] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 14:58:49.473 +07 [22984] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 14:58:49.473 +07 [3236] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 14:58:49.473 +07 [18412] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 14:58:49.476 +07 [19200] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 14:58:49.479 +07 [2756] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 14:58:49.483 +07 [23068] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 14:58:49.483 +07 [132] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 16:17:44.613 +07 [3392] ERROR:  could not serialize access due to concurrent update
+2024-05-06 16:17:44.613 +07 [3392] STATEMENT:  DELETE FROM ir_attachment WHERE id IN (
+	            SELECT id FROM ir_attachment WHERE id in (937) FOR NO KEY UPDATE SKIP LOCKED
+	        )
+2024-05-06 17:32:23.817 +07 [3392] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 17:32:23.831 +07 [12496] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 17:32:23.835 +07 [26288] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 17:32:23.840 +07 [26136] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 17:32:23.849 +07 [21056] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 17:32:23.851 +07 [23812] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 17:32:23.855 +07 [8020] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 17:32:23.869 +07 [2712] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-06 17:32:23.871 +07 [11584] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-07 13:28:20.583 +07 [11756] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-07 13:28:20.583 +07 [17668] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-07 13:29:26.946 +07 [10672] ERROR:  could not serialize access due to concurrent update
+2024-05-07 13:29:26.946 +07 [10672] STATEMENT:  
+	            SELECT *
+	            FROM ir_cron
+	            WHERE active = true
+	              AND numbercall != 0
+	              AND (nextcall <= (now() at time zone 'UTC')
+	                OR EXISTS (
+	                    SELECT cron_id
+	                    FROM ir_cron_trigger
+	                    WHERE call_at <= (now() at time zone 'UTC')
+	                      AND cron_id = ir_cron.id
+	                )
+	              )
+	              AND id in (12)
+	            ORDER BY priority
+	            LIMIT 1 FOR NO KEY UPDATE SKIP LOCKED
+	        
+2024-05-07 13:54:39.967 +07 [10672] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-07 13:54:39.977 +07 [16108] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-07 13:54:39.978 +07 [9964] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-07 13:54:39.978 +07 [28496] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-07 13:54:39.978 +07 [1956] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-07 13:54:39.978 +07 [24360] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-07 13:54:39.980 +07 [26064] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-07 14:12:04.263 +07 [6048] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-07 14:12:04.265 +07 [4588] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-07 14:12:04.265 +07 [23000] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-07 14:12:04.266 +07 [27640] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-07 14:12:04.267 +07 [16404] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-07 14:12:04.267 +07 [23048] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-07 14:12:04.272 +07 [7900] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-07 14:12:04.277 +07 [22268] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-07 14:12:04.281 +07 [5768] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-07 14:19:48.823 +07 [27108] ERROR:  update or delete on table "ir_ui_view" violates foreign key constraint "ir_ui_view_inherit_id_fkey" on table "ir_ui_view"
+2024-05-07 14:19:48.823 +07 [27108] DETAIL:  Key (id)=(3512) is still referenced from table "ir_ui_view".
+2024-05-07 14:19:48.823 +07 [27108] STATEMENT:  DELETE FROM "ir_ui_view" WHERE id IN (2610, 2609, 2611, 2608, 2598, 2596, 2570, 2593, 2581, 2572, 2580, 2538, 2591, 2529, 3516, 3512)
+2024-05-07 14:19:48.987 +07 [27108] ERROR:  update or delete on table "ir_ui_view" violates foreign key constraint "ir_ui_view_inherit_id_fkey" on table "ir_ui_view"
+2024-05-07 14:19:48.987 +07 [27108] DETAIL:  Key (id)=(2598) is still referenced from table "ir_ui_view".
+2024-05-07 14:19:48.987 +07 [27108] STATEMENT:  DELETE FROM "ir_ui_view" WHERE id IN (2610, 2609, 2611, 2608, 2598, 2596)
+2024-05-07 14:19:49.073 +07 [27108] ERROR:  update or delete on table "ir_ui_view" violates foreign key constraint "ir_ui_view_inherit_id_fkey" on table "ir_ui_view"
+2024-05-07 14:19:49.073 +07 [27108] DETAIL:  Key (id)=(2598) is still referenced from table "ir_ui_view".
+2024-05-07 14:19:49.073 +07 [27108] STATEMENT:  DELETE FROM "ir_ui_view" WHERE id IN (2610, 2609, 2611, 2608, 2598, 2596)
+2024-05-07 14:19:49.197 +07 [27108] ERROR:  update or delete on table "ir_ui_view" violates foreign key constraint "ir_ui_view_inherit_id_fkey" on table "ir_ui_view"
+2024-05-07 14:19:49.197 +07 [27108] DETAIL:  Key (id)=(2598) is still referenced from table "ir_ui_view".
+2024-05-07 14:19:49.197 +07 [27108] STATEMENT:  DELETE FROM "ir_ui_view" WHERE id IN (2598, 2596)
+2024-05-07 14:19:49.424 +07 [27108] ERROR:  update or delete on table "ir_ui_view" violates foreign key constraint "ir_ui_view_inherit_id_fkey" on table "ir_ui_view"
+2024-05-07 14:19:49.424 +07 [27108] DETAIL:  Key (id)=(3512) is still referenced from table "ir_ui_view".
+2024-05-07 14:19:49.424 +07 [27108] STATEMENT:  DELETE FROM "ir_ui_view" WHERE id IN (2570, 2538, 2529, 3512)
+2024-05-07 14:19:49.555 +07 [27108] ERROR:  update or delete on table "ir_ui_view" violates foreign key constraint "ir_ui_view_inherit_id_fkey" on table "ir_ui_view"
+2024-05-07 14:19:49.555 +07 [27108] DETAIL:  Key (id)=(2538) is still referenced from table "ir_ui_view".
+2024-05-07 14:19:49.555 +07 [27108] STATEMENT:  DELETE FROM "ir_ui_view" WHERE id IN (2538, 2529, 3512)
